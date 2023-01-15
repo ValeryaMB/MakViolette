@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
   navegar(){
     console.log(this.nombre)
     console.log(this.correo)
-    if(this.nombre='valeria'&&this.correo=='vale66@gmail.com'){
+    if(this.nombre='valeria'&&this.correo=='1234'){
       this.router.navigate(['3'])
     }
     else{
