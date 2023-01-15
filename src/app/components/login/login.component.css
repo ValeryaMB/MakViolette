@@ -27,7 +27,7 @@ body{
 
 .form-box input[type="text"],
 .form-box input[type="password"],
-.form-box input[type="button"]{
+.form-box button[type="button"]{
     border: 0;
     background: none;
     display: block;
@@ -40,4 +40,21 @@ body{
     color: #fff;
     border-radius: 24px;
     transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus{
+    width: 280px;
+    border-color: #fff;
+}
+
+.form-box button[type="button"]{
+    border: 0;
+    background: #5352ed;
+    cursor: pointer;
+    border: 2px solid #3742fa;
+}
+
+.form-box button[type="button"]:hover{
+    background: none;
 }
