@@ -11,3 +11,15 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.form-box{
+    width: 300px;
+    padding: 40px;
+    background-color: #191919;
+    text-align: center;
+}
+
+.form-title{
+    color: #fff;
+    text-transform: uppercase;
+}
