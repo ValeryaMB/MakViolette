@@ -20,14 +20,14 @@ export class ComprasComponent implements OnInit {
   cantidad7:number=0
   cantidad8:number=0
   
-  total:number
-  total2:number
-  total3:number
-  total4:number
-  total5:number
-  total6:number
-  total7:number
-  total8:number
+  total:any
+  total2:any
+  total3:any
+  total4:any
+  total5:any
+  total6:any
+  total7:any
+  total8:any
 
   carro:any  
 
