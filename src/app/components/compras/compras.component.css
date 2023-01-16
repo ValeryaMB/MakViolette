@@ -23,3 +23,13 @@
 .cant{
     text-align: center;
 }
+
+.carro{
+    height: 50px;
+    width: 50px;
+}
+
+.imagen{
+    height: 60px;
+    width: 50px;
+}

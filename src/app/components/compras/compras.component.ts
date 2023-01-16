@@ -32,7 +32,7 @@ export class ComprasComponent implements OnInit {
   carro:any  
 
   ngOnInit() {
-    this.calcula()
+    this.calcular()
   }
 
   navegar(){
@@ -44,27 +44,27 @@ export class ComprasComponent implements OnInit {
     this.router.navigate(['4'])
   }
 
-  suma(precio:number,nombreproducto:string,cant:number,tot:number){
+  sumar(precio:number,nombreproducto:string,cant:number,tot:number){
     tot=cant*precio
-    this.calcula()
+    this.calcular()
   }
 
-  resta(precio:number,nombreproducto:string,cant:number,tot:number){
+  restar(precio:number,nombreproducto:string,cant:number,tot:number){
     tot=cant*precio   
-    this.calcula()
+    this.calcular()
   }
 
-  compra(precio:number, nombreproducto:string,cant:number,tot:number){    
+  comprar(precio:number, nombreproducto:string,cant:number,tot:number){    
     tot=cant*precio
     localStorage.setItem(nombreproducto,tot.toString()+ '#'+ cant.toString()+'#'+precio.toString())
-    this.calcula()
+    this.calcular()
   }
 
   limpiar(){
     localStorage.clear();
   }
 
-  calcula() {
+  calcular() {
     this.carro=0;
     for (const key in localStorage) {
       if (key.startsWith("Producto")) {
