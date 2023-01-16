@@ -1,0 +1,25 @@
+.row{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.col-sm-6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.col-sm-12-mt-4{
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.col-sm-12{
+    text-align: center;
+}
+
+.cant{
+    text-align: center;
+}

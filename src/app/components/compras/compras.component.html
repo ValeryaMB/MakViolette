@@ -46,7 +46,7 @@
     </header>
   
     <body>
-      <div class="col-sm-12 mt-4">
+      <div class="col-sm-12-mt-4">
         Productos
       </div>
   
@@ -78,7 +78,7 @@
                   (click)="sumar( 20,'Producto1',cantidad,total)">Mas</button>
               </div>
               <div class="col-sm-8">
-                <input type="number" [(ngModel)]="cantidad">
+                <input class="cant" type="number" [(ngModel)]="cantidad">
                 {{total}}
               </div>
               <div class="col-sm-2"><button (click)="cantidad=cantidad-1" class="btn btn-outline-danger"
@@ -114,7 +114,7 @@
                   (click)="sumar( 15,'Producto2',cantidad2,total2)">Mas</button>
               </div>
               <div class="col-sm-8">
-                <input type="number" [(ngModel)]="cantidad2">
+                <input class="cant" type="number" [(ngModel)]="cantidad2">
                 {{total2}}
               </div>
               <div class="col-sm-2"><button (click)="cantidad2=cantidad2-1" class="btn btn-outline-danger"
@@ -150,7 +150,7 @@
                   (click)="sumar( 12,'Producto3',cantidad3,total3)">Mas</button>
               </div>
               <div class="col-sm-8">
-                <input type="number" [(ngModel)]="cantidad3">
+                <input class="cant" type="number" [(ngModel)]="cantidad3">
                 {{total2}}
               </div>
               <div class="col-sm-2"><button (click)="cantidad3=cantidad3-1" class="btn btn-outline-danger"
@@ -183,7 +183,7 @@
                   (click)="sumar( 20,'Producto4',cantidad4,total4)">Mas</button>
               </div>
               <div class="col-sm-8">
-                <input type="number" [(ngModel)]="cantidad4">
+                <input class="cant" type="number" [(ngModel)]="cantidad4">
                 {{total2}}
               </div>
               <div class="col-sm-2"><button (click)="cantidad4=cantidad4-1" class="btn btn-outline-danger"
@@ -215,7 +215,7 @@
                   (click)="sumar( 112,'Producto5',cantidad5,total5)">Mas</button>
               </div>
               <div class="col-sm-8">
-                <input type="number" [(ngModel)]="cantidad5">
+                <input class="cant" type="number" [(ngModel)]="cantidad5">
               </div>
               <div class="col-sm-2"><button (click)="cantidad5=cantidad5-1" class="btn btn-outline-danger"
                   (click)="restar(  112,'Producto5',cantidad5,total5)">Menos</button></div>
@@ -247,7 +247,7 @@
                   (click)="sumar( 5,'Producto6',cantidad6,total6)">Mas</button>
               </div>
               <div class="col-sm-8">
-                <input type="number" [(ngModel)]="cantidad6">
+                <input class="cant" type="number" [(ngModel)]="cantidad6">
               </div>
               <div class="col-sm-2"><button (click)="cantidad6=cantidad6-1" class="btn btn-outline-danger"
                   (click)="restar(  5,'Producto6',cantidad6,total6)">Menos</button></div>
@@ -281,7 +281,7 @@
                   (click)="sumar( 210.99,'Producto7',cantidad7,total7)">Mas</button>
               </div>
               <div class="col-sm-8">
-                <input type="number" [(ngModel)]="cantidad7">
+                <input class="cant" type="number" [(ngModel)]="cantidad7">
               </div>
               <div class="col-sm-2"><button (click)="cantidad7=cantidad7-1" class="btn btn-outline-danger"
                   (click)="restar(  210.99,'Producto7',cantidad7,total7)">Menos</button></div>
@@ -312,7 +312,7 @@
                   (click)="sumar( 1,'Producto8',cantidad8,total8)">Mas</button>
               </div>
               <div class="col-sm-8">
-                <input type="number" [(ngModel)]="cantidad8">
+                <input class="cant" type="number" [(ngModel)]="cantidad8">
               </div>
               <div class="col-sm-2"><button (click)="cantidad8=cantidad8-1" class="btn btn-outline-danger"
                   (click)="restar(  1,'Producto8',cantidad8,total8)">Menos</button></div>
