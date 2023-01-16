@@ -4,7 +4,7 @@ body, html{
 body{
     margin: 0;
     padding: 0;
-    background-color: #2f3542;
+    background-color: #F2E0DC;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@ body{
 .col-sm-6{
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    color: aliceblue;
+    color: #403330;
 }
 
 .col-sm-12-mt-4{

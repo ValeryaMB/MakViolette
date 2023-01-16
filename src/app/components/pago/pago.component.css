@@ -1,7 +1,7 @@
 body{
     margin: 0;
-    padding: 0;
-    background-color: #2f3542;
+    padding-top: 100px;
+    background-color: #F2E0DC;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
