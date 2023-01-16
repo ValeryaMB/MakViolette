@@ -1,33 +1,40 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./pago.component.css">
+</head>
 <body>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12">Carrito</div>
-        </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-12">Carrito</div>
     </div>
-    <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Imagen</th>
-            <th scope="col">Descripcion</th>
-            <th scope="col">Cantidad</th>
-            <th scope="col">Precio</th>
-            <th scope="col">Total</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let dato of datos">
-            <th scope="row"> <img src="{{dato[0]}}" alt=""></th>
-            <td>{{dato[1]}}</td>
-            <td>{{dato[2]}}</td>
-            <td>{{dato[3]}}</td>
-            <td>{{dato[4]}}</td>
-          </tr>
-          <tr>
-            <td colspan="5"><h3>TOTAL: ${{total}}</h3></td>
-          </tr>
-          
-      </table>
+</div>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Imagen</th>
+        <th scope="col">Descripcion</th>
+        <th scope="col">Cantidad</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dato of datos">
+        <th scope="row"> <img class="imag" src="{{dato[0]}}" alt=""></th>
+        <td>{{dato[1]}}</td>
+        <td>{{dato[2]}}</td>
+        <td>{{dato[3]}}</td>
+        <td>{{dato[4]}}</td>
+      </tr>
+      <tr>
+        <td colspan="5"><h3 class="hh">TOTAL: ${{total}}</h3></td>
+      </tr>
+      
+  </table>
 </body>
-</header>
+</html>
